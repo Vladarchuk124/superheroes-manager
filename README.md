@@ -27,7 +27,7 @@ Web application for managing a database of superheroes. The application allows y
 ```bash
 git clone https://github.com/Vladarchuk124/superheroes-manager.git
 ```
-Or in VS Code:
+Or you can do it directly in VS Code:
 
 <img width="566" height="585" alt="image" src="https://github.com/user-attachments/assets/c8832414-e559-45c0-8704-1300da9f33dd" />
 
