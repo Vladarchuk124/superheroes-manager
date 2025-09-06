@@ -26,8 +26,12 @@ Web application for managing a database of superheroes. The application allows y
 ### 1. Clone the project
 ```bash
 git clone https://github.com/Vladarchuk124/superheroes-manager.git
-cd superhero-database
 ```
+Or in VS Code:
+
+<img width="566" height="585" alt="image" src="https://github.com/user-attachments/assets/c8832414-e559-45c0-8704-1300da9f33dd" />
+
+
 ### 2. Set up the database (PostgreSQL)
 
 ```bash
