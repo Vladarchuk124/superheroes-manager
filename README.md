@@ -1,4 +1,4 @@
-# Superhero Database
+# Superhero Manager App
 
 Web application for managing a database of superheroes. The application allows you to create, edit, delete, and view heroes with the ability to add images.  
 <img width="1000" height="505" alt="image" src="https://wallpapercat.com/w/full/b/1/9/2164678-3840x2160-desktop-4k-super-heroes-background-photo.jpg" />
