@@ -1,0 +1,93 @@
+.imagesGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;       
+    max-width: 30rem;  
+    padding: 1rem;
+}
+
+.heroImg {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.deleteImgBtn {
+    min-width: 5rem;
+    background-color: #577590;
+    color: white;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border-radius: 4px;
+    border: 0;
+    transition: transform 0.3s;
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination button {
+    margin: 0 1rem;
+    padding: 0.3rem 1rem;
+    color: white;
+    background-color: #577590;
+    border-radius: 10px;
+    border: 0;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: grey;
+    color:black;
+    cursor: default;
+}
+
+
+.heroNewInput {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.heroNewInput input {
+    width: 15rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: large;
+    border-radius: 4px;
+    border: solid 0.5 #4a5759;
+}
+
+.inputImg {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.inputImg p {
+    margin: 0;
+}
+
+.statusBtn {
+    min-width: 5rem;
+    background-color: #577590;
+    color: white;
+    padding: 0.4rem;
+    margin: 2rem 0.4rem 0;
+    border-radius: 4px;
+    border: 0;
+    transition: transform 0.3s;
+}
+
+.statusBtn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

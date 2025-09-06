@@ -1,0 +1,45 @@
+.heroCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #eff1ed;
+    color: black;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin: 0.7rem;
+    transition: transform 0.3s;
+}
+
+.nickname {
+    margin: 0.2rem 0 0 0.5rem;
+}
+
+.heroCard img {
+    height: 25rem;
+    width: 17rem;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.heroCard:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+}

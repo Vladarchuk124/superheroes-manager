@@ -1,0 +1,39 @@
+.superheroesListSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroesList {
+    display: flex;
+    flex-direction: row;
+    background-color: #112a3f;
+    border-radius: 10px;
+    color: white;
+    margin: 2% 0;
+    padding: 0.7rem;
+}
+
+.pagination {
+    color: black;
+}
+
+.pagination button {
+    margin: 0 1rem;
+    padding: 0.3rem 1rem;
+    color: white;
+    background-color: #112a3f;
+    border-radius: 10px;
+    border: 0;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: grey;
+    color:black;
+    cursor: default;
+}

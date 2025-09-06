@@ -1,0 +1,75 @@
+.imagesGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;       
+    max-width: 30rem;  
+    padding: 1rem;
+}
+
+.heroImg {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination button {
+    margin: 0 1rem;
+    padding: 0.3rem 1rem;
+    color: white;
+    background-color: #577590;
+    border-radius: 10px;
+    border: 0;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: grey;
+    color:black;
+    cursor: default;
+}
+
+.heroInfo {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    max-width: 30rem;
+    margin-right: 1rem;
+}
+
+.heroInfo h1, h2, p {
+    margin: 0.3rem 0;
+}
+
+.buttonsGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.buttonsGroup button {
+    width: 4rem;
+    background-color:#577590;
+    color: white;
+    padding: 0.4rem;
+    margin: 0.4rem;
+    border-radius: 4px;
+    border: 0;
+    transition: transform 0.3s;
+}
+
+.buttonsGroup button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
