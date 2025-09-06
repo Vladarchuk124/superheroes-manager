@@ -59,11 +59,11 @@ Edit backend/db.js with your PostgreSQL credentials:
 const { Pool } = require("pg");
 
 const pool = new Pool({
+  host: "localhost",
   user: "your_username",
   password: "your_password",
-  host: "localhost",
-  port: 5432,
   database: "superheroes"
+  port: 5432,
 });
 
 module.exports = pool;
