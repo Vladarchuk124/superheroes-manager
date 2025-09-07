@@ -53,7 +53,7 @@ cd server
 npm install
 ```
 
-Edit backend/db.js with your PostgreSQL credentials:
+Edit server/db.js with your PostgreSQL credentials:
 
 ```bash
 const { Pool } = require("pg");
